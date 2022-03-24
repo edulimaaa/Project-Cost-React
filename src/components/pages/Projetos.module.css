@@ -1,0 +1,21 @@
+.project_container {
+  padding: 2em;
+}
+
+.title_container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.no_project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 57%;
+  margin-top: 4em;
+}
+
+.no_project img {
+  width: 9em;
+}

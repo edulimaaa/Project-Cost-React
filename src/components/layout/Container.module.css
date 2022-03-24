@@ -1,0 +1,22 @@
+.container {
+  /*NavBar*/
+  width: 1200px;
+  display: flex;
+  justify-content: space-between; /*Distribuir icone Cost no inicio e buttons da navbar no final */
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.min-height {
+  /**/
+  min-height: 70%;
+}
+
+.start {
+  justify-content: flex-start;
+}
+
+.column {
+  flex-direction: column;
+  justify-content: flex-start;
+}

@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222;
+  padding: 1em;
+  -webkit-box-shadow: 0px 9px 19px -4px rgba(0, 0, 0, 0.52);
+  box-shadow: 0px 9px 19px -4px rgba(0, 0, 0, 0.52);
+}
+
+.navbar img:hover {
+  transform: rotateY(360deg);
+  transition: 1.2s;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn_grad {
+  background-image: linear-gradient(
+    to right,
+    #f09819 0%,
+    #edde5d 51%,
+    #f09819 100%
+  );
+}
+.btn_grad {
+  padding: 7px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  display: block;
+  text-decoration: none;
+}
+
+.btn_grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #ffffff;
+}
