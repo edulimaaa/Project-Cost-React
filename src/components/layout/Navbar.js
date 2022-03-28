@@ -21,11 +21,7 @@ function Navbar() {
               Projetos
             </Link>
           </li>
-          <li className={styles.item}>
-            <Link className={styles.btn_grad} to="/empresa">
-              Empresa
-            </Link>
-          </li>
+
           <li className={styles.item}>
             <Link className={styles.btn_grad} to="/contato">
               Contato
